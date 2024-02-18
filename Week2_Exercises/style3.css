@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .module {
+    background-color: #87ceeb;
+    border-radius: 1px;
+  }
+  
+  .module h2 {
+    margin-bottom: 1px;
+  }
+  
