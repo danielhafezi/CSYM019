@@ -1,0 +1,51 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Rare Animal Sightings",
+    "description": "Schema for validating rare animal sighting reports",
+    "type": "object",
+    "properties": {
+      "sightings": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "animal": {
+              "type": "string",
+              "enum": ["Beaver", "Hare", "Pine Martin", "Otter", "Snowy Owl"]
+            },
+            "number": {
+              "type": "integer"
+            },
+            "location": {
+              "type": "string"
+            },
+            "date": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            },
+            "observer": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "email": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "email"]
+            },
+            "observations": {
+              "type": "string"
+            }
+          },
+          "required": ["id", "animal", "number", "location", "date", "time", "observer", "observations"]
+        }
+      }
+    }
+  }

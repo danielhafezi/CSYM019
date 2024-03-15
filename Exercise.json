@@ -1,0 +1,43 @@
+{
+    "sightings": [
+      {
+        "id": 1,
+        "animal": "Snowy Owl",
+        "number": 1,
+        "location": "Hawk Hill",
+        "date": "2023-03-15",  
+        "time": "15:30",
+        "observer": {
+          "name": "John Smith",
+          "email": "john.smith@example.com"
+        },
+        "observations": "Perched on a tree branch"
+      },
+      {
+        "id": 2, 
+        "animal": "Beaver",
+        "number": 2,
+        "location": "Riverside Park",
+        "date": "2023-03-12",
+        "time": "08:15",
+        "observer": {
+          "name": "Jane Doe",
+          "email": "jane.doe@example.com" 
+        },
+        "observations": "Building a dam in the stream"
+      },
+      {
+        "id": 3,
+        "animal": "Hare",
+        "number": 1, 
+        "location": "Meadow Field",
+        "date": "2023-03-10",
+        "time": "06:45",
+        "observer": {
+          "name": "Bob Johnson",
+          "email": "bob.johnson@example.com"
+        },
+        "observations": "Running through the tall grass"
+      }
+    ]
+  }
